@@ -5,7 +5,7 @@ import fs from "fs/promises";
 
 const api = express();
 
-api.use(express.static(path.join(__dirname, "../icons")));
+api.use(express.static(path.join(__dirname, "../assets")));
 api.use(express.json());
 
 api.get("/", (_req: Request, res: Response) => {
@@ -23,7 +23,7 @@ api.get("/icons", async (_req: Request, res: Response) => {
         const iconslist = i.split(",");
         const fulliconslist = iconslist.map(icon => shortnames[icon.trim()] || icon.trim());
         const data: string[] = [];
-        const idir = path.join(__dirname, "../icons");
+        const idir = path.join(__dirname, "../assets");
 
         for (const icon of fulliconslist) {
             const ipath = path.join(idir, `${icon.trim()}.svg`);
@@ -60,7 +60,7 @@ api.get("/icons", async (_req: Request, res: Response) => {
 });
 
 api.get("/icons/all", async (_req: Request, res: Response) => {
-    const idir = path.join(__dirname, "../icons");
+    const idir = path.join(__dirname, "../assets");
 
     try {
         const files = await fs.readdir(idir);
