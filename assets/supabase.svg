@@ -1,4 +1,13 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="supabase">
+<style>
+#supabase {
+    rect {fill: #15191C}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
 <rect width="256" height="256" rx="50" fill="#15191C"/>
 <path d="M143.267 214.763C138.675 220.545 129.364 217.377 129.253 209.993L127.635 101.996H200.253C213.405 101.996 220.741 117.188 212.562 127.489L143.267 214.763Z" fill="url(#linearGradient)"/>
 <path d="M113.734 40.9866C118.326 35.2033 127.636 38.3722 127.747 45.756L128.457 153.753H56.748C43.5947 153.753 36.2588 138.561 44.4379 128.26L113.734 40.9866Z" fill="#3ECF8E"/>

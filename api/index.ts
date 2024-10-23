@@ -15,10 +15,12 @@ api.get("/", (_req: Request, res: Response) => {
 const shortnames: Record<string, string> = {
     "js": "javascript",
     "ts": "typescript",
+    "node": "nodejs",
     "express": "expressjs",
     "mongo": "mongodb",
     "nuxt": "nuxtjs",
-    "vue": "vuejs"
+    "vue": "vuejs",
+    "tailwind": "tailwindcss"
 }
 
 api.get("/icons", async (_req: Request, res: Response) => {

@@ -1,4 +1,13 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="pocketbase">
+<style>
+#pocketbase {
+    rect {fill: #15191C}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
 <rect width="256" height="256" rx="50" fill="#15191C"/>
 <path d="M151.97 99.2515L157.185 104.645L104.54 155.522L99.3271 150.128L151.97 99.2515Z" fill="white"/>
 <path d="M153.998 101.5H201.249C204.149 101.5 206.498 103.85 206.498 106.75V201.249C206.498 204.149 204.149 206.498 201.249 206.498H106.75C103.85 206.498 101.5 204.149 101.5 201.249V153.998" fill="white"/>
