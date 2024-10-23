@@ -13,8 +13,12 @@ api.get("/", (_req: Request, res: Response) => {
 });
 
 const shortnames: Record<string, string> = {
-    js: "javascript",
-    ts: "typescript"
+    "js": "javascript",
+    "ts": "typescript",
+    "express": "expressjs",
+    "mongo": "mongodb",
+    "nuxt": "nuxtjs",
+    "vue": "vuejs"
 }
 
 api.get("/icons", async (_req: Request, res: Response) => {
