@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" id="angularjs">
+<style>
+#angularjs {
+    rect {fill: #15191C}
+
+    @media (prefers-color-scheme: light) {
+        rect {fill: #F4F2ED}
+    }
+}
+</style>
+<rect width="256" height="256" rx="50" fill="#15191C"/>
+<path d="M216 65.8839L209.681 165.113L149.263 35L216 65.8839ZM174.152 194.192L128.5 220.241L82.8475 194.192L92.1327 171.69H164.867L174.152 194.192ZM128.5 84.3888L152.422 142.547H104.578L128.5 84.3888ZM47.2545 165.113L41 65.8839L107.737 35L47.2545 165.113Z" fill="url(#linearGradient1)"/>
+<path d="M216 65.8839L209.681 165.113L149.263 35L216 65.8839ZM174.152 194.192L128.5 220.241L82.8475 194.192L92.1327 171.69H164.867L174.152 194.192ZM128.5 84.3888L152.422 142.547H104.578L128.5 84.3888ZM47.2545 165.113L41 65.8839L107.737 35L47.2545 165.113Z" fill="url(#linearGradient2)"/>
+<linearGradient id="linearGradient1" x1="79.6198" y1="203.438" x2="218.957" y2="137.223" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E40035"/>
+<stop offset="0.24" stop-color="#F60A48"/>
+<stop offset="0.352" stop-color="#F20755"/>
+<stop offset="0.494" stop-color="#DC087D"/>
+<stop offset="0.745" stop-color="#9717E7"/>
+<stop offset="1" stop-color="#6C00F5"/>
+</linearGradient>
+<linearGradient id="linearGradient2" x1="73.3283" y1="57.3355" x2="164.514" y2="161.353" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF31D9"/>
+<stop offset="1" stop-color="#FF5BE1" stop-opacity="0"/>
+</linearGradient>
+</svg>
