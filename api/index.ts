@@ -20,7 +20,11 @@ const shortnames: Record<string, string> = {
     "mongo": "mongodb",
     "nuxt": "nuxtjs",
     "vue": "vuejs",
-    "tailwind": "tailwindcss"
+    "tailwind": "tailwindcss",
+    "angular": "angularjs",
+    "go": "golang",
+    "next": "nextjs",
+    "react": "reactjs",
 }
 
 api.get("/icons", async (_req: Request, res: Response) => {
